@@ -1,0 +1,1766 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cus",
+				"customOperatorMapRev	std::map<std::string, ArithmeticOp>"
+			],
+			[
+				"Typ",
+				"TypeAliasDef	struct"
+			],
+			[
+				"Array",
+				"ArrayIndexOp	struct"
+			],
+			[
+				"Struc",
+				"StructDef	struct"
+			],
+			[
+				"Com",
+				"CompoundType	struct"
+			],
+			[
+				"Par",
+				"Parser::	namespace"
+			],
+			[
+				"N",
+				"NumberLiteral	struct"
+			],
+			[
+				"Pars",
+				"ParserState	struct"
+			],
+			[
+				"Func",
+				"FunctionDef	struct"
+			],
+			[
+				"Var",
+				"VarRef	struct"
+			],
+			[
+				"getfunctiosand",
+				"getFunctionsWithFQNameAndType(std::deque<std::string> qualifiedName, fir::FunctionType *ft)	std::deque<Function *>"
+			],
+			[
+				"getfunctios",
+				"getFunctionsWithFQName(std::deque<std::string> qualifiedName)	std::deque<Function *>"
+			],
+			[
+				"getfunc",
+				"getFunctionsWithNameAndType(std::string name, fir::FunctionType *ft)	std::deque<Function *>"
+			],
+			[
+				"getar",
+				"getArgumentCount()	size_t"
+			],
+			[
+				"get",
+				"Value::getType()	fir::Type *"
+			],
+			[
+				"op",
+				"opKind	fir::OpKind"
+			],
+			[
+				"b",
+				"getBlockList()	std::deque<IRBlock *> &"
+			],
+			[
+				"error",
+				"error(Ast::Expr *e, const char *msg, ...)	void"
+			],
+			[
+				"crea",
+				"StructBase::createdType	fir::StructType *"
+			],
+			[
+				"tp",
+				"tp	TypePair_t *"
+			],
+			[
+				"generic",
+				"genericTypeMangle	std::string"
+			],
+			[
+				"pushgeneri",
+				"pushGenericType(std::string id, fir::Type *type)	void"
+			],
+			[
+				"instanti",
+				"instantiatedGenericTypeStack	std::deque<std::map<std::string, fir::Type *> >"
+			],
+			[
+				"S",
+				"ShiftLeftEquals	Ast::ArithmeticOp"
+			],
+			[
+				"Shif",
+				"ShiftLeft	Ast::ArithmeticOp"
+			],
+			[
+				"Shift",
+				"ShiftLeftEquals	Ast::ArithmeticOp"
+			],
+			[
+				"create",
+				"createType(Codegen::CodegenInstance *cgi)	fir::Type *"
+			],
+			[
+				"i",
+				"getSignedValue()	ssize_t"
+			],
+			[
+				"Consta",
+				"ConstantInt	struct"
+			],
+			[
+				"Conta",
+				"ConstantValue	struct"
+			],
+			[
+				"getpo",
+				"getPointerElementType()	fir::Type *"
+			],
+			[
+				"accep",
+				"acceptFooPtr"
+			],
+			[
+				"poin",
+				"Type::getPointerTo()	fir::Type *"
+			],
+			[
+				"getpoin",
+				"getPointerElementType()	fir::Type *"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"Manager",
+				"PassManager	class"
+			],
+			[
+				"module",
+				"ModulePass	class"
+			],
+			[
+				"createdt",
+				"StructBase::createdType	fir::StructType *"
+			],
+			[
+				"gettype",
+				"getType(std::string name)	TypePair_t *"
+			],
+			[
+				"istyp",
+				"isTypeEqual(fir::Type *other)	bool"
+			],
+			[
+				"cached",
+				"cachedGenericFuncTarget	fir::Function *"
+			],
+			[
+				"res",
+				"resolveFunction(Ast::Expr *user, std::string basename, std::deque<Ast::Expr *> params)	Codegen::Resolved_t"
+			],
+			[
+				"generictype",
+				"instantiatedGenericTypeStack	std::deque<std::map<std::string, fir::Type *> >"
+			],
+			[
+				"Attr_Vis",
+				"Attr_VisPrivate	uint64_t"
+			],
+			[
+				"mayb",
+				"maybeCXX"
+			],
+			[
+				"runprorg",
+				"getRunProgramWithJit()	bool"
+			],
+			[
+				"Compil",
+				"CompiledData	typedef"
+			],
+			[
+				"add",
+				"addInstruction(fir::Instruction *instr, std::string vname)	fir::Value *"
+			],
+			[
+				"getp",
+				"getPointerTo()	fir::Type *"
+			],
+			[
+				"alloc",
+				"allocType	fir::Type *"
+			],
+			[
+				"aft",
+				"afterLoop"
+			],
+			[
+				"Constant",
+				"ConstantValue	struct"
+			],
+			[
+				"createbranch",
+				"CreateCondBranch(fir::Value *condition, fir::IRBlock *trueBlock, fir::IRBlock *falseBlock)	void"
+			],
+			[
+				"getuint",
+				"getUint64()	fir::PrimitiveType *"
+			],
+			[
+				"getbit",
+				"getIntegerBitWidth()	size_t"
+			],
+			[
+				"p",
+				"push_back(value_type &&__v)	void"
+			],
+			[
+				"parsearray",
+				"parseArraySizeSpecifiers(Parser::ParserState &ps)	std::string"
+			],
+			[
+				"Plus",
+				"PlusEquals	Ast::ArithmeticOp"
+			],
+			[
+				"Print",
+				"printModule	bool"
+			],
+			[
+				"Left",
+				"LeftVariable	Ast::MAType"
+			],
+			[
+				"Con",
+				"ConstantFP	struct"
+			],
+			[
+				"getSigned",
+				"getSigned(fir::Type *intType, ssize_t val)	fir::ConstantInt *"
+			],
+			[
+				"CreateGEP",
+				"CreateGetPointerToStructMember(fir::Value *ptr, fir::Value *ptrIndex, fir::Value *memberIndex)	fir::Value *"
+			],
+			[
+				"find_if",
+				"find_if(_InputIterator __first, _InputIterator __last, _Predicate __pred)	_InputIterator"
+			],
+			[
+				"geti",
+				"getUnsignedValue()	size_t"
+			],
+			[
+				"Const",
+				"ConstantInt	struct"
+			],
+			[
+				"getfunction",
+				"getFunctionList()	FunctionListType &"
+			],
+			[
+				"func",
+				"getAllFunctions()	std::deque<Function *>"
+			],
+			[
+				"o",
+				"ConstantValue	struct"
+			],
+			[
+				"ge",
+				"getPointerTo()	fir::Type *"
+			],
+			[
+				"gt",
+				"getPointerTo()	fir::Type *"
+			],
+			[
+				"addnew",
+				"addNewBlockInFunction(std::string name, fir::Function *func)	fir::IRBlock *"
+			],
+			[
+				"getSign",
+				"getUnsigned(fir::Type *intType, size_t val)	fir::ConstantInt *"
+			],
+			[
+				"dele",
+				"deleteNamedType(std::string name)	void"
+			],
+			[
+				"print",
+				"printFIR	bool"
+			],
+			[
+				"Unsi",
+				"Unsigned_Div	fir::OpKind"
+			],
+			[
+				"getfloa",
+				"getFloatingPointBitWidth()	size_t"
+			],
+			[
+				"pop",
+				"pop_front()	void"
+			],
+			[
+				"main",
+				"mainModule	llvm::Module *"
+			],
+			[
+				"Constan",
+				"ConstantValue	struct"
+			],
+			[
+				"prn",
+				"printf	printf …"
+			],
+			[
+				"args",
+				"getArguments()	std::deque<Argument *>"
+			],
+			[
+				"blo",
+				"blocks	std::deque<IRBlock *>"
+			],
+			[
+				"Vla",
+				"Value_StackAlloc	fir::OpKind"
+			],
+			[
+				"Constnat",
+				"ConstantInt	struct"
+			],
+			[
+				"arg",
+				"arg_end()	arg_iterator"
+			],
+			[
+				"getarg",
+				"getArguments()	std::deque<Argument *>"
+			],
+			[
+				"dya",
+				"dynamic_cast<type>(expression)	"
+			],
+			[
+				"Constn",
+				"ConstantInt	struct"
+			],
+			[
+				"createret",
+				"CreateRet(llvm::Value *V)	llvm::ReturnInst *"
+			],
+			[
+				"g",
+				"getActualValue()	fir::Value *"
+			],
+			[
+				"iss",
+				"isSignedIntType()	bool"
+			],
+			[
+				"Fun",
+				"Function	struct"
+			],
+			[
+				"Weak",
+				"ExternalWeakLinkage	llvm::GlobalValue::LinkageTypes"
+			],
+			[
+				"toLlvm",
+				"typeToLlvm(fir::Type *type, llvm::Module *mod)	llvm::Type *"
+			],
+			[
+				"ps",
+				"push_back(const_reference __x)	void"
+			],
+			[
+				"Global",
+				"GlobalVariable	struct"
+			],
+			[
+				"global",
+				"globalStrings	std::map<std::string, GlobalVariable *>"
+			],
+			[
+				"name",
+				"getStructName()	std::string"
+			],
+			[
+				"getpoint",
+				"getPointerElementType()	fir::Type *"
+			],
+			[
+				"getflot",
+				"getFloatingPointBitWidth()	size_t"
+			],
+			[
+				"geta",
+				"getArgumentCount()	size_t"
+			],
+			[
+				"resolvefunctio",
+				"resolveFunctionFromList(Ast::Expr *user, std::deque<FuncPair_t> list, std::string basename, std::deque<Ast::Expr *> params)	Codegen::Resolved_t"
+			],
+			[
+				"par",
+				"parentClass	Ast::StructBase *"
+			],
+			[
+				"ar",
+				"params	std::deque<Expr *>"
+			],
+			[
+				"getint",
+				"getIntegerBitWidth()	size_t"
+			],
+			[
+				"autocast",
+				"autoCastType(fir::Type *target, fir::Value *&right)	int"
+			],
+			[
+				"Multi",
+				"MultiplyEquals	Ast::ArithmeticOp"
+			],
+			[
+				"Minu",
+				"MinusEquals	Ast::ArithmeticOp"
+			],
+			[
+				"Pl",
+				"PlusEquals	Ast::ArithmeticOp"
+			],
+			[
+				"istr",
+				"isStructType()	bool"
+			],
+			[
+				"createlogial",
+				"CreateLogicalAND(fir::Value *a, fir::Value *b)	fir::Value *"
+			],
+			[
+				"Res",
+				"Result_t	struct"
+			],
+			[
+				"ispo",
+				"isPointerType()	bool"
+			],
+			[
+				"exec",
+				"execTarget	fir::ExecutionTarget *"
+			],
+			[
+				"Neg",
+				"Signed_Neg	fir::OpKind"
+			],
+			[
+				"globa",
+				"globalStrings	std::map<std::string, GlobalVariable *>"
+			],
+			[
+				"E",
+				"ExternalWeak	fir::LinkageType"
+			],
+			[
+				"erro",
+				"error(const char *msg, ...)	void"
+			],
+			[
+				"tpp",
+				"toPrimitiveType()	fir::PrimitiveType *"
+			],
+			[
+				"to",
+				"toArrayType()	fir::ArrayType *"
+			],
+			[
+				"pri",
+				"private:	"
+			],
+			[
+				"getel",
+				"getElements()	std::vector<Type *>"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "c",
+		"selected_items":
+		[
+			[
+				"c",
+				"Snippet: Copyright Header"
+			],
+			[
+				"ch",
+				"Snippet: Copyright Header"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"enble",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"packageres",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"hc",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"scope",
+				"Toggle ScopeAlways"
+			],
+			[
+				"flax",
+				"Set Syntax: Flax"
+			],
+			[
+				"sscope",
+				"Set Syntax: SublimeClangErrorPanel"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remvoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"livestyle",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"packagecontrol upgrade",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"clean",
+				"Build: Clean"
+			],
+			[
+				"clena",
+				"Build: Make clean"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"clea",
+				"Build: Make clean"
+			],
+			[
+				"hea",
+				"Snippet: Copyright Header"
+			],
+			[
+				"header",
+				"Snippet: Copyright Header"
+			],
+			[
+				"lean",
+				"Build: Make clean"
+			],
+			[
+				"claena",
+				"SublimeClang: Clear cache"
+			],
+			[
+				"eah",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"head",
+				"Snippet: Copyright Header"
+			],
+			[
+				"h",
+				"Snippet: Copyright Header"
+			],
+			[
+				"haeder",
+				"Snippet: Copyright Header"
+			],
+			[
+				"cleam",
+				"Package Control: Remove Package"
+			],
+			[
+				"clen",
+				"Build: Make clean"
+			],
+			[
+				"make ",
+				"Build: Make clean"
+			],
+			[
+				"mak",
+				"Build: Make clean"
+			],
+			[
+				"make clean",
+				"Build: Make clean"
+			],
+			[
+				":make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"pacage remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"m",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"p",
+				"Package Control: Remove Package"
+			],
+			[
+				"mdp",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"term",
+				"Open in terminal"
+			],
+			[
+				"sub",
+				"Preferences: SublimeClang Settings – User"
+			],
+			[
+				"sni",
+				"Snippet: Inserts standard licensing info and filename"
+			],
+			[
+				"ani",
+				"Snippet: Inserts standard licensing info and filename"
+			],
+			[
+				"sn",
+				"Snippet: Inserts standard licensing info and filename"
+			],
+			[
+				"snipp",
+				"Snippet: Inserts standard licensing info and filename"
+			],
+			[
+				"snippet",
+				"Snippet: Inserts standard licensing info and filename"
+			],
+			[
+				"Snipp",
+				"Set Syntax: Sublime Text Snippet (Raw)"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pr",
+				"Package Control: Remove Package"
+			],
+			[
+				"p r",
+				"Package Control: Remove Package"
+			],
+			[
+				"package i",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Preferences: Browse Packages"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"package control instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 493.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"reload",
+			"plugins.reload()",
+			"reload()",
+			"exit()",
+			"help();",
+			"help()",
+			"help"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/personal-site"
+	],
+	"file_history":
+	[
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/defs.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/codegen.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/typechecking.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ast.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/TypeCheck.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/CompilerDriver.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/Parser/Parser.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/compiler.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/parser.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ast-old.h",
+		"/Users/zhiayang/Documents/Find Results",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/Compiler.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/main.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/typeinfo.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/semantic.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/dependency.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/LlvmCompiler.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/SemanticAnalysis/Dependencies.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/SemanticAnalysis/RewriteDotOperators.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/SemanticAnalysis/VarChecker.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/Parser/Parser-old.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/type.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Namespace.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Translator.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/module.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Module.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/namespace.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/TypeParameter.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Instruction.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/StructType.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/executiontarget.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/ExecutionTarget.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/tcn.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/test.flx",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/libs/Array.flx",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Types/ClassCodegen.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Functions/FunctionDecls.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/CodegenUtils.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-old/flax-old.sublime-project",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/IRBuilder.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/irbuilder.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Types/Classes.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Types/Enums.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Types/Extensions.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Types/MemberAccess.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Types/OperatorOverloads.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Types/Structs.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Types/Tuples.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Types/TypeAliases.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/AllocStatements.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Arrays.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/BinaryOps.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/ControlFlow.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Functions.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Literals.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Loops.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/UnaryOps.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Typechecking/Variables.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/instruction.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/BinaryOps.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Variables.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/TypeUtils.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/StructMemberAccess.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/StructCodegen.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Value.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/ClassCodegen.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/shakefile.hs",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/block.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/Parser/Lexer.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TopLevel.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/TypeAliases.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/Tuples.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/Extensions.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/TypeHandling/Enumerations.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Functions/Functions.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/Type.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/PointerType.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/FunctionType.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/ArrayType.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/Types/PrimitiveType.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Literals.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/GlobalValue.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Functions/GlobalConstructors.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Parser/Lexer.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Parser/Parser.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Functions/FunctionCalls.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Alloc.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Errors.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/js/init.js",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/content/the-basics.html",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/content/strings.html",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/content/intro-page.html",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/content/control-flow.html",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/content/basic-operators.html",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/css/style.css",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/css/prism.css",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/README.md",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/js/prism.js",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/FlaxSyntax.html",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/content/sidebar.html",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/index.html",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/content/core.html",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/TypeInfo/TypeInfo.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/include/ir/constant.h",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/FlaxIR/ConstantValue.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Arrays.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/libs/Unicode.flx",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/libs/String.flx",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/libs/LibCInterface.flx",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/libs/Foundation.flx",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/Unicode.flx",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/String.flx",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/Foundation.flx",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/sysroot/usr/local/lib/flaxlibs/LibCInterface.flx",
+		"/Users/zhiayang/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/css/bootstrap.css",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/index 2.html",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/css/bootstrap.min.css",
+		"/Users/zhiayang/Documents/pw/pw op.md",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/css/simple-sidebar.css",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax-lang.github.io/js/bootstrap.js",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Frontend/FileReader.cpp",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/tests/generics.flx",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/build/Utilities.flx",
+		"/Users/zhiayang/Desktop/pw op.md",
+		"/Users/zhiayang/Desktop/pw op.txt",
+		"/Users/zhiayang/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/flax.sublime-project"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*.cpp,*.h",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/Functions/FuncCodegen.cpp",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/DotOperatorCodegen.cpp",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/source/Codegen/ExprCodegen.cpp",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/Orion Industries/flax/web",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/source,-*.cpp.d",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/source",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/Libraries/libc/source",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/source",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/source",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/libraries/iris",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/source",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/Libraries/Iris",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/Libraries/Iris/StringStream.cpp",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/Libraries/libc",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/Libraries/rdestl",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/source",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/mx/source",
+			"",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/stdlib/abs.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/stdlib/atoi.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/stdlib/div.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/stdlib/qsort.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/stdlib/qsort_r.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/stdlib/rand.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/stdlib/strtof.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/stdlib/strtol.cpp",
+			"/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/memccpy.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/memchr.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/memcmp.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/memcpy.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/memmove.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/memrchr.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/memset.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strcat.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strchr.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strcmp.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strcpy.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strcspn.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strlen.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strncat.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strncmp.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strncpy.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strpbrk.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strrchr.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strspn.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strstr.cpp,/Users/zhiayang/Desktop/Stuff/OSDev/Orion-X4/Libraries/libc/source/string/strtok.cpp",
+			"",
+			"*.cpp,*.hpp,*.s",
+			"",
+			"Internal::GetLFBAddr()",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"doCodegen",
+			"operatorto",
+			"codegeninstance;",
+			"codegeninstance",
+			"printast",
+			"pritnast",
+			"name",
+			"getinteger",
+			"vardecl",
+			"->type",
+			"Ast::",
+			"typeinfo.h",
+			"StructBase;",
+			"structbase",
+			"parseunary",
+			"parsestatic",
+			"Root*",
+			"tokens",
+			"Ast::",
+			"parsepostfix",
+			"parseidexpr",
+			"parserhs",
+			"parsenumber",
+			"parseif",
+			"pin",
+			"getargumenttypes",
+			"vector",
+			"getLP64",
+			"ret",
+			"param:",
+			"param",
+			"::resolvefunction",
+			"resolvefunction",
+			"isduplicatefunc",
+			"computedpropert",
+			"\"self\"",
+			"::getexprt",
+			"dupe:",
+			"Ast::ArithmeticOp",
+			"enum class ArithmeticOp",
+			"->codegen\\((.+), (.+), (.+)",
+			"codegen\\((.+), (.+), (.+)",
+			"codegen\\((.+),",
+			"\"ast.h\"",
+			"ValPtr_t",
+			"BreakCodegen",
+			"VarArg",
+			"created",
+			"zerobloc",
+			"\"-> \"",
+			"\"->\"",
+			"\"-> \"",
+			"\" -> \"",
+			"\"->\"",
+			"!ret",
+			"infertype",
+			"self type",
+			"lgsptr",
+			"iceassert(this->infer",
+			"getType\\([^)]",
+			"getType\\([!)]",
+			"getType([!)]",
+			"getType(",
+			"dovariable",
+			"getbinaryopin",
+			"createbinary",
+			"currentopprec",
+			"parserhs",
+			"addInstruction",
+			"createbina",
+			"shiftleft",
+			"getcuropprec",
+			"getopprec",
+			"caret",
+			"shiftleft",
+			"rangle",
+			"parsetype",
+			"instantiatedGenericTypes",
+			"instantiated",
+			"parsestruct",
+			"structbase",
+			"createGlobalV",
+			"createGlobal",
+			"::autocast",
+			"addGlobalConstructedValue",
+			"192",
+			"valueKind",
+			"autocasttype",
+			"- 1",
+			"iceassert(!",
+			"<code>int</code> is",
+			"int is",
+			"only",
+			"int only",
+			"autocasttype",
+			"::Do",
+			"TType::To",
+			"::To",
+			"to",
+			"\"do\"",
+			".\"",
+			"h3",
+			"//",
+			"	//",
+			"Equals",
+			"b",
+			"h4",
+			"h3",
+			"<ul",
+			"ul",
+			"@",
+			"95",
+			"85%",
+			"<p class=\"note-title\" />",
+			"content: \"note",
+			"h3",
+			"h4",
+			"div",
+			"content-view",
+			"sub-sub",
+			"<div class=\"anchor-clicker\">",
+			"href",
+			"height",
+			"i8Max",
+			"h2",
+			"h3",
+			"keyword",
+			"Uint"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"RootAst*",
+			"ArithmeticOp",
+			"<p class=\"note-title\">Note</p>",
+			"sub",
+			"<div class=\"anchor-clicker\">#",
+			"h2",
+			"UInt",
+			"<code>",
+			"<code class=\"lang-swift\">",
+			"/code>",
+			"code",
+			"Pin()",
+			"Pin",
+			"addInstruction(instr, vname)",
+			"CreateStructGEP",
+			"getExprTypeFromStringType",
+			"getExprType",
+			"llvm",
+			"addValueToMap",
+			"valueMap[inst->realOutput] = ret;",
+			"addToTable(ret, inst->realOutput)",
+			";",
+			"getOperand(inst, 2);",
+			"getOperand(inst, 1);",
+			"getOperand(inst, 0);",
+			"getOperand(inst, 2)",
+			"getOperand(inst, 1)",
+			"getOperand(inst, 0)",
+			"getOperand(inst, 0);",
+			"",
+			"Compare",
+			"Type()",
+			"enotsup",
+			"LinkageType",
+			"fir::",
+			"namespace fir",
+			"",
+			"/ir/",
+			"",
+			"protected",
+			"->str().c_str()",
+			".str().c_str()",
+			"normaliseType",
+			"flax::TypeCheckInst* tci",
+			"CodegenInst",
+			"FTContext",
+			"2015",
+			"pin",
+			"stream.compare(0, 2",
+			"stream.find(0, 2, ",
+			"error(",
+			"mainModule",
+			"createDependencies(",
+			"Dep(cgi, ",
+			"Dep(cgi,",
+			"Dep(cgi",
+			"ps.tokens.size()",
+			"ps.front()",
+			"ps.eat()",
+			"ParserState& ps",
+			"ps",
+			"peek(tokens)",
+			"Warning",
+			"this",
+			"ma",
+			"",
+			"builder",
+			"module",
+			"members",
+			"->right",
+			"->left",
+			"",
+			"str",
+			"this->recalculateStringLength();",
+			"initString",
+			"setString",
+			"appendString",
+			"length()",
+			"string",
+			"utf8",
+			"ssize_t i",
+			"TypeKind",
+			"flax",
+			"Flax",
+			"flax",
+			"exit(-1)",
+			"iceAssert(",
+			"Typeof",
+			"ExprKind",
+			"flax",
+			".",
+			"TokenList",
+			"lhsPtr, llvm::Value* rhs)",
+			"lhsPtr = 0, llvm::Value* rhs = 0)",
+			"grow",
+			"$1(",
+			"",
+			"lang-swift",
+			"swift",
+			"codegen(CodegenInstance* cgi, llvm::Value* lhsPtr)",
+			"codegen(Codegen::CodegenInstance* cgi, llvm::Value* lhsPtr)",
+			"llvm::Value* lhsPtr = 0",
+			"flax::Type",
+			"s_ptr",
+			"std::deque<Token>",
+			"parseFuncCall",
+			"this",
+			"bo",
+			"block",
+			"BracedBlock",
+			"h2",
+			"parserWarn(",
+			"parserError(",
+			"virtual Result_t",
+			"ValPtr_t",
+			".1s",
+			"isdigit",
+			"####",
+			"codegen(cgi)",
+			"codegen(Codegen::CodegenInstance* cgi)",
+			"projDir",
+			"sb->writeptr",
+			"sb->buffersize",
+			"sb",
+			"$(CXX_)",
+			"->size(",
+			"back",
+			"front"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 40.0
+	},
+	"output.clang_static_analyzer":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 63.0
+	},
+	"output.find_results":
+	{
+		"height": 98.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.haskell_error_checker":
+	{
+		"height": 98.0
+	},
+	"output.haskell_sublime_load":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "personal-site.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"binop",
+				"flax/source/Codegen/BinaryOps.cpp"
+			],
+			[
+				"error",
+				"flax/source/Errors.cpp"
+			],
+			[
+				"typeutils",
+				"flax/source/Codegen/TypeHandling/TypeUtils.cpp"
+			],
+			[
+				"",
+				".travis.yml"
+			],
+			[
+				"aggr",
+				"source/Codegen/AggrTypeCodegen.cpp"
+			],
+			[
+				"codegen",
+				"source/Codegen/CodegenUtils.cpp"
+			],
+			[
+				"kernelhea",
+				"source/Kernel/HardwareAbstraction/MemoryManager/KernelHeap.cpp"
+			],
+			[
+				"virtu",
+				"source/Kernel/HardwareAbstraction/MemoryManager/Virtual.cpp"
+			],
+			[
+				"kheap",
+				"source/Kernel/HardwareAbstraction/MemoryManager/KernelHeap.cpp"
+			],
+			[
+				"heapk",
+				"source/Kernel/HardwareAbstraction/MemoryManager/KernelHeap.cpp"
+			],
+			[
+				"kernel",
+				"source/Kernel/HardwareAbstraction/MemoryManager/KernelHeap.cpp"
+			],
+			[
+				"physical",
+				"source/Kernel/HardwareAbstraction/MemoryManager/Physical.cpp"
+			],
+			[
+				"kernlheap",
+				"source/Kernel/HardwareAbstraction/MemoryManager/KernelHeap.cpp"
+			],
+			[
+				"kernelheap",
+				"source/Kernel/HardwareAbstraction/MemoryManager/KernelHeap.cpp"
+			],
+			[
+				"basic_string.h",
+				"build/sysroot/usr/include/c++/bits/basic_string.h"
+			],
+			[
+				"multi",
+				"source/Kernel/HeaderFiles/HardwareAbstraction/Multitasking.hpp"
+			],
+			[
+				"storage",
+				"source/Kernel/HeaderFiles/HardwareAbstraction/Devices/StorageDevice.hpp"
+			],
+			[
+				"khea",
+				"source/Kernel/HardwareAbstraction/MemoryManager/KernelHeap.cpp"
+			],
+			[
+				"heap",
+				"Libraries/Iris/HeaderFiles/Heap.hpp"
+			],
+			[
+				"pci.cpp",
+				"source/Kernel/HardwareAbstraction/Devices/PCI/PCI.cpp"
+			],
+			[
+				"task",
+				"source/Kernel/HardwareAbstraction/Multitasking/Task.cpp"
+			],
+			[
+				"loadelf",
+				"source/Kernel/HardwareAbstraction/LoadBinary/LoadELF.cpp"
+			],
+			[
+				"fat32",
+				"source/Kernel/HardwareAbstraction/Filesystems/FAT/FAT32.cpp"
+			],
+			[
+				"filedesc",
+				"source/Kernel/HardwareAbstraction/Filesystems/VFS/FileDescriptors.cpp"
+			],
+			[
+				"filesyste",
+				"source/Kernel/HeaderFiles/HardwareAbstraction/Filesystems.hpp"
+			],
+			[
+				"ipcstrea",
+				"source/Kernel/IPC/StreamingIPC.cpp"
+			],
+			[
+				"socke",
+				"source/Kernel/HardwareAbstraction/Network/Socket.cpp"
+			],
+			[
+				"folder",
+				"source/Kernel/HardwareAbstraction/Filesystems/VFS/Folder.cpp"
+			],
+			[
+				"file.cpp",
+				"source/Kernel/HardwareAbstraction/Filesystems/VFS/File.cpp"
+			],
+			[
+				"string",
+				"Libraries/Iris/String.cpp"
+			],
+			[
+				"socket",
+				"source/Kernel/HardwareAbstraction/Network/Socket.cpp"
+			],
+			[
+				"ker",
+				"source/Kernel/Kernel.cpp"
+			],
+			[
+				"virtual",
+				"source/Kernel/HardwareAbstraction/MemoryManager/Virtual.cpp"
+			],
+			[
+				"udp",
+				"source/Kernel/HardwareAbstraction/Network/UDP.cpp"
+			],
+			[
+				"time",
+				"source/Kernel/Utility/Time.cpp"
+			],
+			[
+				"filesys",
+				"source/Kernel/HeaderFiles/HardwareAbstraction/Filesystems.hpp"
+			],
+			[
+				"filesystem",
+				"source/Kernel/HeaderFiles/HardwareAbstraction/Filesystems.hpp"
+			],
+			[
+				"syscall",
+				"source/Kernel/HardwareAbstraction/SystemCall/Syscall.s"
+			],
+			[
+				"sys",
+				"source/Kernel/HardwareAbstraction/SystemCall/Syscall.s"
+			],
+			[
+				"process",
+				"source/Kernel/HardwareAbstraction/SystemCall/Process.cpp"
+			],
+			[
+				"filee",
+				"source/Kernel/HeaderFiles/Filesystems.hpp"
+			],
+			[
+				"test.c",
+				"src/kernel/test.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/Stuff/Orion Industries/corevm/corevm.sublime-project"
+			],
+			[
+				"web",
+				"~/Dropbox/Public/ProjectsDay/webreport.sublime-project"
+			],
+			[
+				"wb",
+				"~/Dropbox/Public/ProjectsDay/webreport.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 131.0,
+		"last_filter": "getinteger",
+		"selected_items":
+		[
+			[
+				"getinteger",
+				"getIntegerValue"
+			],
+			[
+				"parseii",
+				"parseInitFunc"
+			],
+			[
+				"manglememberfunction",
+				"mangleMemberFunction"
+			],
+			[
+				"tryre",
+				"tryResolveAndInstantiateGenericFunction"
+			],
+			[
+				"resolvefunct",
+				"resolveFunctionName"
+			],
+			[
+				"getoperato",
+				"getOperatorOverload"
+			],
+			[
+				"globalvaria",
+				"GlobalVariable"
+			],
+			[
+				"getllvm",
+				"getLlvmTypeFromExprType"
+			],
+			[
+				"",
+				"#### Language Syntax"
+			],
+			[
+				"resolve",
+				"resolveFunction"
+			],
+			[
+				"resolvefunc",
+				"resolveFunction"
+			],
+			[
+				"calltypein",
+				"callTypeInitialiser"
+			],
+			[
+				"getstructini",
+				"getStructInitialiser"
+			],
+			[
+				"clonefunc",
+				"cloneFunctionTree"
+			],
+			[
+				"parseope",
+				"parseOpOverload"
+			],
+			[
+				"parseopo",
+				"parseOpOverload"
+			],
+			[
+				"parseopover",
+				"parseOpOverload"
+			],
+			[
+				"callop",
+				"callOperatorOverloadOnStruct"
+			],
+			[
+				"callopera",
+				"callOperatorOverloadOnStruct"
+			],
+			[
+				"arithm",
+				"ArithmeticOp"
+			],
+			[
+				"cloneftr",
+				"cloneFunctionTree"
+			],
+			[
+				"clonefunct",
+				"cloneFunctionTree"
+			],
+			[
+				"findfun",
+				"findTypeInFuncTree"
+			],
+			[
+				"parsetypefrom",
+				"parseTypeFromString"
+			],
+			[
+				"findtypein",
+				"findTypeInFuncTree"
+			],
+			[
+				"unwrapna",
+				"unwrapNamespacedType"
+			],
+			[
+				"addfunctio",
+				"addFunctionToScope"
+			],
+			[
+				"pushnames",
+				"pushNamespaceScope"
+			],
+			[
+				"resolvef",
+				"resolveFunction"
+			],
+			[
+				"tryresol",
+				"tryResolveAndInstantiateGenericFunction"
+			],
+			[
+				"addpubl",
+				"addPublicFunc"
+			],
+			[
+				"addpublic",
+				"addPublicFunc"
+			],
+			[
+				"parseimport",
+				"parseImport"
+			],
+			[
+				"addnet",
+				"addNewType"
+			],
+			[
+				"addnewtype",
+				"addNewType"
+			],
+			[
+				"getstructb",
+				"getStructMemberByName"
+			],
+			[
+				"getdefault",
+				"getDefaultConstructor"
+			],
+			[
+				"getType",
+				"getType"
+			],
+			[
+				"typekind",
+				"TypeKind"
+			],
+			[
+				"parsetypefromstr",
+				"parseTypeFromString"
+			],
+			[
+				"getllvmtyoe",
+				"getLlvmTypeFromString"
+			]
+		],
+		"width": 400.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

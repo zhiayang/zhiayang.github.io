@@ -13,13 +13,13 @@ var main = (function($) { var _ = {
 	settings: {
 
 		// Preload all images.
-			preload: false,
+			preload: true,
 
 		// Slide duration (must match "duration.slide" in _vars.scss).
-			slideDuration: 500,
+			slideDuration: 200,
 
 		// Layout duration (must match "duration.layout" in _vars.scss).
-			layoutDuration: 750,
+			layoutDuration: 200,
 
 		// Thumbnails per "row" (must match "misc.thumbnails-per-row" in _vars.scss).
 			thumbnailsPerRow: 2,

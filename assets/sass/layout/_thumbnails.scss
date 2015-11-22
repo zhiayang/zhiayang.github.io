@@ -35,7 +35,7 @@
 
 				&:before {
 					@include vendor('pointer-events', 'none');
-					@include vendor('transition', 'opacity 0.25s ease');
+					@include vendor('transition', 'opacity 0.10s ease');
 					content: '';
 					position: absolute;
 					left: 0;
