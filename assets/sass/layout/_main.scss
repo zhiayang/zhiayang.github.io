@@ -3,7 +3,7 @@
 @import '../libs/mixins';
 
 ///
-/// Lens by HTML5 UP
+/// Identity by HTML5 UP
 /// html5up.net | @n33co
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -11,112 +11,67 @@
 /* Main */
 
 	#main {
-		@include vendor('transition', ('opacity #{_duration(layout)} ease', 'right #{_duration(layout)} ease', 'left #{_duration(layout)} ease', 'visibility #{_duration(layout)}'));
-		-webkit-overflow-scrolling: touch;
-		position: fixed;
-		top: 0;
-		width: _size(main);
-		height: 100%;
+		position: relative;
+		max-width: 100%;
+		min-width: 27em;
+		@include padding(4.5em, 3em);
+
 		background: _palette(bg);
-		outline: 0;
-		overflow-x: hidden;
-		overflow-y: auto;
-		text-align: _misc(main-align);
-		visibility: visible;
-		z-index: _misc(z-index-base);
+		border-radius: _size(border-radius);
+		cursor: default;
+		opacity: 0.95;
+		text-align: center;
 
-		@if _misc(main-side) == 'left' {
-			left: 0;
-		}
-		@else {
-			right: 0;
-		}
+		@include vendor('transform-origin', '50% 50%');
+		@include vendor('transform', 'rotateX(0deg)');
+		@include vendor('transition', (
+			'opacity #{_duration(main)} ease',
+			'transform #{_duration(main)} ease'
+		));
 
-		.toggle {
-			-webkit-tap-highlight-color: rgba(0,0,0,0);
-			position: absolute;
-			top: 0;
-			width: 4em;
-			height: 4em;
-			background-image: url('images/close-small-alt.svg');
-			background-repeat: no-repeat;
-			background-size: 32px 32px;
-			cursor: pointer;
-			display: none;
-			z-index: 1;
+		.avatar {
+			position: relative;
+			display: block;
+			margin-bottom: _size(element-margin);
 
-			@if _misc(main-side) == 'left' {
-				background-position: calc(100% - 0.5em) 0.5em;
-				right: 0;
-			}
-			@else {
-				background-position: 0.5em 0.5em;
-				left: 0;
-			}
-		}
+			img {
+				max-width: 150px;
+				max-height: 150px;
 
-		body.fullscreen & {
-			visibility: hidden;
-
-			@if _misc(main-side) == 'left' {
-				left: (_size(main) * -1);
-			}
-			@else {
-				right: (_size(main) * -1);
-			}
-		}
-
-		body.is-loading-1 & {
-			opacity: 0;
-
-			@if _misc(main-side) == 'left' {
-				left: -2em;
-			}
-			@else {
-				right: -2em;
-			}
-		}
-
-		@include breakpoint(large) {
-			width: _size(main-alt);
-
-			body.fullscreen & {
-				@if _misc(main-side) == 'left' {
-					left: (_size(main-alt) * -1);
-				}
-				@else {
-					right: (_size(main-alt) * -1);
-				}
-			}
-		}
-
-		@include breakpoint(medium) {
-			background: transparentize(_palette(bg), 0.075);
-
-			.toggle {
 				display: block;
+				margin: 0 auto;
+				border-radius: 100%;
+				box-shadow: 0 0 0 1.5em _palette(bg);
+			}
+
+			&:before {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: -3em;
+				width: calc(100% + 6em);
+				height: _size(border-width);
+				z-index: -1;
+				background: _palette(border);
 			}
 		}
 
 		@include breakpoint(xsmall) {
-			@include vendor('transition', ('opacity #{_duration(layout-alt)} ease', 'visibility #{_duration(layout-alt)}'));
+			min-width: 0;
 			width: 100%;
-			background: _palette(bg);
-			text-align: center;
+			@include padding(4em, 2em);
 
-			body.is-loading-1 & {
-				left: auto !important;
-				right: auto !important;
+			.avatar {
+				&:before {
+					left: -2em;
+					width: calc(100% + 4em);
+				}
 			}
+		}
 
-			body.fullscreen & {
-				left: auto !important;
-				right: auto !important;
-				opacity: 0;
-			}
-
-			.toggle {
-				display: none;
-			}
+		body.is-loading & {
+			opacity: 0;
+			@include vendor('transform', 'rotateX(15deg)');
 		}
 	}

@@ -3,7 +3,7 @@
 @import '../libs/mixins';
 
 ///
-/// Lens by HTML5 UP
+/// Identity by HTML5 UP
 /// html5up.net | @n33co
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -34,7 +34,7 @@
 			padding-left: 0;
 
 			li {
-				border-top: solid _size(border-width) _palette(border);
+				border-top: solid 1px _palette(border);
 				padding: 0.5em 0;
 
 				&:first-child {
@@ -48,18 +48,50 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			margin-top: -0.675em;
 
 			li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				padding: 0.675em 0.5em;
 
-				&:last-child {
-					padding-right: 0;
-				}
+				a {
+					@include icon-alt(false, true);
+					position: relative;
+					display: block;
+					width: 3.75em;
+					height: 3.75em;
+					border-radius: 100%;
+					border: solid _size(border-width) _palette(border);
+					line-height: 3.75em;
+					overflow: hidden;
+					text-align: center;
+					text-indent: 3.75em;
+					white-space: nowrap;
 
-				.icon {
 					&:before {
-						font-size: 1.5rem;
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: inherit;
+						height: inherit;
+						font-size: 1.85rem;
+						line-height: inherit;
+						text-align: center;
+						text-indent: 0;
+					}
+
+					&:hover {
+						border-color: _palette(highlight);
+					}
+				}
+			}
+
+			@include breakpoint(xsmall) {
+				li {
+					a {
+						&:before {
+							font-size: 1.5rem;
+						}
 					}
 				}
 			}
@@ -79,63 +111,6 @@
 					padding-right: 0;
 				}
 			}
-
-			&.small {
-				li {
-					padding: 0 (_size(element-margin) * 0.25) 0 0;
-				}
-			}
-
-			&.vertical {
-				li {
-					display: block;
-					padding: (_size(element-margin) * 0.5) 0 0 0;
-
-					&:first-child {
-						padding-top: 0;
-					}
-
-					> * {
-						margin-bottom: 0;
-					}
-				}
-
-				&.small {
-					li {
-						padding: (_size(element-margin) * 0.25) 0 0 0;
-
-						&:first-child {
-							padding-top: 0;
-						}
-					}
-				}
-			}
-
-			&.fit {
-				display: table;
-				margin-left: (_size(element-margin) * -0.5);
-				padding: 0;
-				table-layout: fixed;
-				width: calc(100% + #{(_size(element-margin) * 0.5)});
-
-				li {
-					display: table-cell;
-					padding: 0 0 0 (_size(element-margin) * 0.5);
-
-					> * {
-						margin-bottom: 0;
-					}
-				}
-
-				&.small {
-					margin-left: (_size(element-margin) * -0.25);
-					width: calc(100% + #{(_size(element-margin) * 0.25)});
-
-					li {
-						padding: 0 0 0 (_size(element-margin) * 0.25);
-					}
-				}
-			}
 		}
 	}
 
@@ -144,7 +119,7 @@
 
 		dt {
 			display: block;
-			font-weight: _font(weight);
+			font-weight: _font(weight-bold);
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 		}
 

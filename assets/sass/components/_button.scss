@@ -3,7 +3,7 @@
 @import '../libs/mixins';
 
 ///
-/// Lens by HTML5 UP
+/// Identity by HTML5 UP
 /// html5up.net | @n33co
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
@@ -21,25 +21,22 @@
 			'border-color #{_duration(transition)} ease-in-out',
 			'color #{_duration(transition)} ease-in-out'
 		));
+		display: inline-block;
+		height: _size(element-height);
+		line-height: _size(element-height);
+		padding: 0 1.5em;
 		background-color: transparent;
 		border-radius: _size(border-radius);
 		border: solid 1px _palette(border);
-		color: _palette(fg-bold);
+		color: _palette(fg) !important;
 		cursor: pointer;
-		display: inline-block;
-		line-height: 1;
-		padding: 0.75em 1.5em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
 
 		&:hover {
-			border-color: _palette(accent);
-			color: _palette(accent);
-
-			&:active {
-				background-color: transparentize(_palette(accent), 0.85);
-			}
+			border-color: _palette(highlight);
+			color: _palette(highlight) !important;
 		}
 
 		&.icon {
@@ -52,8 +49,8 @@
 
 		&.fit {
 			display: block;
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
 			width: 100%;
+			margin: 0 0 (_size(element-margin) * 0.5) 0;
 		}
 
 		&.small {
@@ -67,6 +64,6 @@
 		&.disabled,
 		&:disabled {
 			@include vendor('pointer-events', 'none');
-			opacity: 0.25;
+			opacity: 0.5;
 		}
 	}
