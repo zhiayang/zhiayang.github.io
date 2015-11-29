@@ -13,7 +13,7 @@ var main = (function($) { var _ = {
 	settings: {
 
 		// Preload all images.
-			preload: true,
+			preload: false,
 
 		// Slide duration (must match "duration.slide" in _vars.scss).
 			slideDuration: 200,
