@@ -801,7 +801,14 @@ body.is-loading-1 #main {
 #footer .copyright li {
   display: inline-block;
   font-size: 0.8em;
-  padding: 0;
+  margin: 0 0 0 0.85em;
+  padding: 0 0 0 0.85em;
+  border-left: solid 1px #aaa;
+  line-height: 1;
+}
+
+#footer .copyright li:first-child {
+  border-left: 0;
 }
 
 /* Thumbnails */
