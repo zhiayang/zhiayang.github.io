@@ -40,7 +40,7 @@
 		@include vendor('background-image', (
 			'url("../images/overlay.png")',
 			'linear-gradient(60deg, #{transparentize(_palette(accent1), 0.85)} 5%, #{transparentize(_palette(accent2), 0.90)})',
-			'url("../images/background.png")'
+			'url("../images/background.svg")'
 		));
 		background-repeat:		repeat,			no-repeat,			no-repeat;
 		background-size:		100px 100px,	cover,				cover;
