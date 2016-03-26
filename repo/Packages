@@ -6,6 +6,7 @@ Filename: debs/com.zhiayang.whatsappnotificationname_1.0.0-2+debug_iphoneos-arm.
 Size: 4284
 MD5sum: 391bb0d5fb366eee5be86a35692bc961
 SHA1: 7dd9fcfa37f6acd025e30e938f54c95b16b80f52
+SHA256: 7189adee2f1d888b48c7e2321b9bb48f348b4e91cab9313365a359203aa47b78
 Architecture: iphoneos-arm
 Maintainer: zhiayang
 Author: zhiayang
