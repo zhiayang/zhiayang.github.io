@@ -1,0 +1,8 @@
+Origin: zhiayang's repo
+Label: zhiayang's repo
+Suite: stable
+Version: 1.0
+Codename: zhiayang
+Architectures: iphoneos-arm
+Components: main
+Description: zhiayang's repo
