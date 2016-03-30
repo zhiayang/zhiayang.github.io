@@ -41,7 +41,7 @@ do
 
 done
 
-cat $(ls *.pack) >> ../Packages
+cat $(find . -name '*.pack') > ../Packages
 
 
 cd ..
