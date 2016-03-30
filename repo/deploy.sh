@@ -29,7 +29,7 @@ do
 
 		# enter the version.
 		printf "Version: %s\n" "$(echo $DEB | cut -d _ -f 2)" >> "$NAME.pack"
-		printf "Filename: %s\n" $DEB >> "$NAME.pack"
+		printf "Filename: ./debs/%s\n" $DEB >> "$NAME.pack"
 		printf "Size: %s\n" "$(stat -f '%z' $DEB)" >> "$NAME.pack"
 		printf "MD5sum: %s\n" "$(md5 -q $DEB)" >> "$NAME.pack"
 		printf "SHA1: %s\n" "$(shasum -a 1 $DEB | awk '{print $1;}')" >> "$NAME.pack"
@@ -68,9 +68,9 @@ cat Release.meta Release.sums > Release
 printf "Done: Release\n\n"
 
 
-# git add ./*
-# git commit -m "repo update"
-# git push
+git add ./*
+git commit -m "repo update"
+git push
 
 
 
