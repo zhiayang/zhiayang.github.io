@@ -11,7 +11,7 @@ do
 	NAME=$(basename $PACKAGE .desc)
 	echo "Package: $NAME"
 
-	echo "" > "$NAME.pack"
+	printf "" > "$NAME.pack"
 
 	# the package file contains the description for all versions.
 	for DEB in $(ls $NAME*.deb)
@@ -68,9 +68,9 @@ cat Release.meta Release.sums > Release
 printf "Done: Release\n\n"
 
 
-git add ./*
-git commit -m "repo update"
-git push
+# git add ./*
+# git commit -m "repo update"
+# git push
 
 
 
