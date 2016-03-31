@@ -20,21 +20,29 @@ do
 		cat $PACKAGE >> "$NAME.pack"
 		printf "\n" >> "$NAME.pack"
 
-		# Version: 1.0.0
-		# Filename: debs/com.zhiayang.whatsappnotificationname_1.0.0-2+debug_iphoneos-arm.deb
-		# Size: 4284
-		# MD5sum: 391bb0d5fb366eee5be86a35692bc961
-		# SHA1: 7dd9fcfa37f6acd025e30e938f54c95b16b80f52
-		# SHA256: 7189adee2f1d888b48c7e2321b9bb48f348b4e91cab9313365a359203aa47b78
+		VERSION=$(echo $DEB | cut -d _ -f 2)
 
-		# enter the version.
-		printf "Version: %s\n" "$(echo $DEB | cut -d _ -f 2)" >> "$NAME.pack"
+		# enter the details.
+		printf "Version: %s\n" $VERSION >> "$NAME.pack"
 		printf "Filename: ./debs/%s\n" $DEB >> "$NAME.pack"
 		printf "Size: %s\n" "$(stat -f '%z' $DEB)" >> "$NAME.pack"
 		printf "MD5sum: %s\n" "$(md5 -q $DEB)" >> "$NAME.pack"
 		printf "SHA1: %s\n" "$(shasum -a 1 $DEB | awk '{print $1;}')" >> "$NAME.pack"
 		printf "SHA256: %s\n" "$(shasum -a 256 $DEB | awk '{print $1;}')" >> "$NAME.pack"
 		printf "\n\n" >> "$NAME.pack"
+
+		# this is quite gross
+		# but we need to unpackage the deb, edit the control file to reflect the correct version,
+		# and then re-deb it.
+
+		mkdir -p $PACKAGE/DEBIAN
+		dpkg-deb --extract $DEB $PACKAGE
+		dpkg-deb --control $DEB $PACKAGE/DEBIAN
+
+		# edit the control file
+		# printf "Version: %s\n" $VERSION
+		awk -v vers="$VERSION" "NR==4 {$0='Version: vers'} { print }" $PACKAGE/DEBIAN/control > $PACKAGE/DEBIAN/control
+
 	done
 
 	printf "\n"
