@@ -35,13 +35,13 @@ do
 		# but we need to unpackage the deb, edit the control file to reflect the correct version,
 		# and then re-deb it.
 
-		mkdir -p $PACKAGE/DEBIAN
-		dpkg-deb --extract $DEB $PACKAGE
-		dpkg-deb --control $DEB $PACKAGE/DEBIAN
+		mkdir -p $PACKAGE.folder/DEBIAN
+		dpkg-deb --extract $DEB $PACKAGE.folder
+		dpkg-deb --control $DEB $PACKAGE.folder/DEBIAN
 
 		# edit the control file
 		# printf "Version: %s\n" $VERSION
-		awk -v vers="$VERSION" "NR==4 {$0='Version: vers'} { print }" $PACKAGE/DEBIAN/control > $PACKAGE/DEBIAN/control
+		awk -v vers="$VERSION" "NR==4 {$0='Version: vers'} { print }" $PACKAGE.folder/DEBIAN/control > $PACKAGE.folder/DEBIAN/control
 
 	done
 
