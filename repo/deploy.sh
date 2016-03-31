@@ -17,8 +17,6 @@ do
 	for DEB in $(ls $NAME*.deb)
 	do
 		printf "    DEB File: $DEB\n"
-		cat $PACKAGE >> "$NAME.pack"
-		printf "\n" >> "$NAME.pack"
 
 		VERSION=$(echo $DEB | cut -d _ -f 2)
 
@@ -26,28 +24,30 @@ do
 		# but we need to unpackage the deb, edit the control file to reflect the correct version,
 		# and then re-deb it.
 
-		mkdir -p $PACKAGE.folder/DEBIAN
-		dpkg-deb --extract $DEB $PACKAGE.folder
-		dpkg-deb --control $DEB $PACKAGE.folder/DEBIAN
+		# mkdir -p $PACKAGE.folder/DEBIAN
+		# dpkg-deb --extract $DEB $PACKAGE.folder
+		# dpkg-deb --control $DEB $PACKAGE.folder/DEBIAN
 
-		rm $DEB
+		# rm $DEB
 
-		# edit the control file
-		# gsed -i '0,/Version:/{//d}' $PACKAGE.folder/DEBIAN/control
-		# rm $PACKAGE.folder/DEBIAN/control
-		# mv $PACKAGE.folder/DEBIAN/control.tmp $PACKAGE.folder/DEBIAN/control
+		# # edit the control file
+		# # gsed -i '0,/Version:/{//d}' $PACKAGE.folder/DEBIAN/control
+		# # rm $PACKAGE.folder/DEBIAN/control
+		# # mv $PACKAGE.folder/DEBIAN/control.tmp $PACKAGE.folder/DEBIAN/control
 
-		dpkg-deb --build -Zlzma $PACKAGE.folder $DEB &> /dev/null
-		rm -r $PACKAGE.folder
+		# dpkg-deb --build -Zlzma $PACKAGE.folder $DEB &> /dev/null
+		# rm -r $PACKAGE.folder
 
 
 		# enter the details.
+		printf "Package: %s\n" $NAME >> "$NAME.pack"
 		printf "Version: %s\n" $VERSION >> "$NAME.pack"
 		printf "Filename: ./debs/%s\n" $DEB >> "$NAME.pack"
 		printf "Size: %s\n" "$(stat -f '%z' $DEB)" >> "$NAME.pack"
 		printf "MD5sum: %s\n" "$(md5 -q $DEB)" >> "$NAME.pack"
 		printf "SHA1: %s\n" "$(shasum -a 1 $DEB | awk '{print $1;}')" >> "$NAME.pack"
 		printf "SHA256: %s\n" "$(shasum -a 256 $DEB | awk '{print $1;}')" >> "$NAME.pack"
+		cat $PACKAGE >> "$NAME.pack"
 		printf "\n\n" >> "$NAME.pack"
 
 	done
