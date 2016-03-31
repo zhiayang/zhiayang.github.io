@@ -9,9 +9,9 @@ Description: Changes Whatsapp notifications (banners + lockscreen) to use the na
 Version: 1.0.0-18
 Filename: ./debs/com.zhiayang.whatsappnotificationname_1.0.0-18_iphoneos-arm.deb
 Size: 4918
-MD5sum: 1288e74ac401c2879da51ef67bb40beb
-SHA1: 7b3eed2546d2fd755a79a0b10168aaea10fd7d13
-SHA256: bcbf943956030d442991783f7f4177a2cde32200644fbd38fb4838e6bad2c1d2
+MD5sum: a5d090296c91b139bf0218df5178251f
+SHA1: 70354138889b0db3b94c88647501bba9f3812432
+SHA256: 795ab844d48ef792125728c1b69c1080a9b0ebf0f2feccb6860d9720ac00feb3
 
 
 Package: com.zhiayang.whatsappnotificationname
@@ -25,8 +25,24 @@ Description: Changes Whatsapp notifications (banners + lockscreen) to use the na
 Version: 1.0.0-20
 Filename: ./debs/com.zhiayang.whatsappnotificationname_1.0.0-20_iphoneos-arm.deb
 Size: 4570
-MD5sum: b580c64393661e38276f048c5696c946
-SHA1: 4e5eb8cfe68d53077601922a6411697c1ebc64ea
-SHA256: fe77e0139d36e36ac79cb07cfd8dd446c88850d28ec55423740f21fa126f6bda
+MD5sum: 65c40305ce68f2409daf506c6ab2cab4
+SHA1: 0a72e6667dc77710b43b72d13eb8ba2d7f9b8ca8
+SHA256: ec9f9961d91d967eb35b0b2f9555a1159a3e812c00ab66d38e442785dff63a61
+
+
+Package: com.zhiayang.whatsappnotificationname
+Name: WhatsappContactNotifs
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Maintainer: zhiayang
+Author: zhiayang
+Section: Tweaks
+Description: Changes Whatsapp notifications (banners + lockscreen) to use the name saved in your contacts, instead of the username of the person sending the message.
+Version: 1.0.0-21
+Filename: ./debs/com.zhiayang.whatsappnotificationname_1.0.0-21_iphoneos-arm.deb
+Size: 4572
+MD5sum: e946e921be926efa4e5101f8554c9ad8
+SHA1: 5f646208c55292ff2fdd0a1c42fe75d28a160eb3
+SHA256: c7d7d3c269d6168e96858d432149bef543c6f61a955b717a67c5b3358f2498db
 
 
