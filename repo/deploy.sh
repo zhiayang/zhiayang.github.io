@@ -22,15 +22,6 @@ do
 
 		VERSION=$(echo $DEB | cut -d _ -f 2)
 
-		# enter the details.
-		printf "Version: %s\n" $VERSION >> "$NAME.pack"
-		printf "Filename: ./debs/%s\n" $DEB >> "$NAME.pack"
-		printf "Size: %s\n" "$(stat -f '%z' $DEB)" >> "$NAME.pack"
-		printf "MD5sum: %s\n" "$(md5 -q $DEB)" >> "$NAME.pack"
-		printf "SHA1: %s\n" "$(shasum -a 1 $DEB | awk '{print $1;}')" >> "$NAME.pack"
-		printf "SHA256: %s\n" "$(shasum -a 256 $DEB | awk '{print $1;}')" >> "$NAME.pack"
-		printf "\n\n" >> "$NAME.pack"
-
 		# this is quite gross
 		# but we need to unpackage the deb, edit the control file to reflect the correct version,
 		# and then re-deb it.
@@ -48,6 +39,17 @@ do
 
 		dpkg-deb --build $PACKAGE.folder $DEB &> /dev/null
 		rm -r $PACKAGE.folder
+
+
+		# enter the details.
+		printf "Version: %s\n" $VERSION >> "$NAME.pack"
+		printf "Filename: ./debs/%s\n" $DEB >> "$NAME.pack"
+		printf "Size: %s\n" "$(stat -f '%z' $DEB)" >> "$NAME.pack"
+		printf "MD5sum: %s\n" "$(md5 -q $DEB)" >> "$NAME.pack"
+		printf "SHA1: %s\n" "$(shasum -a 1 $DEB | awk '{print $1;}')" >> "$NAME.pack"
+		printf "SHA256: %s\n" "$(shasum -a 256 $DEB | awk '{print $1;}')" >> "$NAME.pack"
+		printf "\n\n" >> "$NAME.pack"
+
 	done
 
 	printf "\n"

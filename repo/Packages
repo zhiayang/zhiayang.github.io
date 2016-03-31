@@ -9,9 +9,9 @@ Description: Changes Whatsapp notifications (banners + lockscreen) to use the na
 Version: 1.0.0-18
 Filename: ./debs/com.zhiayang.whatsappnotificationname_1.0.0-18_iphoneos-arm.deb
 Size: 4918
-MD5sum: 95b5d2d94a07d3208e41a2bd3adb9cb1
-SHA1: 98394445a3525e89346d3b6ff5983e3c4f83ba47
-SHA256: 9269ad140002f6bbc5d5be1ecec308d9c651a691b25c59f4f24c1b526973f7cb
+MD5sum: 1288e74ac401c2879da51ef67bb40beb
+SHA1: 7b3eed2546d2fd755a79a0b10168aaea10fd7d13
+SHA256: bcbf943956030d442991783f7f4177a2cde32200644fbd38fb4838e6bad2c1d2
 
 
 Package: com.zhiayang.whatsappnotificationname
@@ -25,8 +25,8 @@ Description: Changes Whatsapp notifications (banners + lockscreen) to use the na
 Version: 1.0.0-20
 Filename: ./debs/com.zhiayang.whatsappnotificationname_1.0.0-20_iphoneos-arm.deb
 Size: 4570
-MD5sum: 5d8441a91e71e0ed497983637a974eb1
-SHA1: 6f13d4e72a66aa0700827e6827455379289aae0a
-SHA256: 62d948960b61d8d68a5f2e3e553c4be1fbf3370b048b779f2b79907d1d65c36b
+MD5sum: b580c64393661e38276f048c5696c946
+SHA1: 4e5eb8cfe68d53077601922a6411697c1ebc64ea
+SHA256: fe77e0139d36e36ac79cb07cfd8dd446c88850d28ec55423740f21fa126f6bda
 
 
