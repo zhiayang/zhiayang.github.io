@@ -26,19 +26,19 @@ do
 		# but we need to unpackage the deb, edit the control file to reflect the correct version,
 		# and then re-deb it.
 
-		mkdir -p $PACKAGE.folder/DEBIAN
-		dpkg-deb --extract $DEB $PACKAGE.folder
-		dpkg-deb --control $DEB $PACKAGE.folder/DEBIAN
+		# mkdir -p $PACKAGE.folder/DEBIAN
+		# dpkg-deb --extract $DEB $PACKAGE.folder
+		# dpkg-deb --control $DEB $PACKAGE.folder/DEBIAN
 
-		rm $DEB
+		# rm $DEB
 
-		# edit the control file
-		# gsed -i '0,/Version:/{//d}' $PACKAGE.folder/DEBIAN/control
-		# rm $PACKAGE.folder/DEBIAN/control
-		# mv $PACKAGE.folder/DEBIAN/control.tmp $PACKAGE.folder/DEBIAN/control
+		# # edit the control file
+		# # gsed -i '0,/Version:/{//d}' $PACKAGE.folder/DEBIAN/control
+		# # rm $PACKAGE.folder/DEBIAN/control
+		# # mv $PACKAGE.folder/DEBIAN/control.tmp $PACKAGE.folder/DEBIAN/control
 
-		dpkg-deb --build $PACKAGE.folder $DEB &> /dev/null
-		rm -r $PACKAGE.folder
+		# dpkg-deb --build $PACKAGE.folder $DEB &> /dev/null
+		# rm -r $PACKAGE.folder
 
 
 		# enter the details.
