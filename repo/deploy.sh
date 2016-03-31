@@ -39,10 +39,15 @@ do
 		dpkg-deb --extract $DEB $PACKAGE.folder
 		dpkg-deb --control $DEB $PACKAGE.folder/DEBIAN
 
-		# edit the control file
-		# printf "Version: %s\n" $VERSION
-		awk -v vers="$VERSION" "NR==4 {$0='Version: vers'} { print }" $PACKAGE.folder/DEBIAN/control > $PACKAGE.folder/DEBIAN/control
+		rm $DEB
 
+		# edit the control file
+		# gsed -i '0,/Version:/{//d}' $PACKAGE.folder/DEBIAN/control
+		# rm $PACKAGE.folder/DEBIAN/control
+		# mv $PACKAGE.folder/DEBIAN/control.tmp $PACKAGE.folder/DEBIAN/control
+
+		dpkg-deb --build $PACKAGE.folder $DEB &> /dev/null
+		rm -r $PACKAGE.folder
 	done
 
 	printf "\n"
