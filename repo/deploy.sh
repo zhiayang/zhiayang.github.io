@@ -3,7 +3,7 @@
 # handle packages file.
 
 echo "" > Packages
-dpkg-scanpackages -m . /dev/null > Packages
+dpkg-scanpackages -m debs > Packages
 
 
 printf "Done: Packages\n"

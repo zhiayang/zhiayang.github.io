@@ -1,7 +1,0 @@
-Name: WhatsappContactNotifs
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Maintainer: zhiayang
-Author: zhiayang
-Section: Tweaks
-Description: Changes Whatsapp notifications (banners + lockscreen) to use the name saved in your contacts, instead of the username of the person sending the message.
