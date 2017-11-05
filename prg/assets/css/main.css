@@ -275,6 +275,13 @@ a:hover
 		padding-left: 0em;
 	}
 
+	.work-text, .study-text
+	{
+		text-align: justify;
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+
 
 
 	.work-date, .study-date
