@@ -1,7 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cantarell');
+
 html
 {
-	background-color: #fafafa
+	background-color: #f4f4f4
 }
 
 body
@@ -29,8 +31,18 @@ hr
 
 h1
 {
-	font-weight: 400;
-	font-size: 3em;
+	font-weight: 200;
+	font-size: 3.2em;
+
+	font-family: 'Cantarell';
+}
+
+h2
+{
+	font-weight: 200;
+	font-size: 1.85em;
+
+	font-family: 'Cantarell';
 }
 
 #home-link
